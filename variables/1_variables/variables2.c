@@ -1,4 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
+#include<math.h>
+
+float a,b,c;//Declaro variables
+int d, e;
+int main()
+{
+  a = 5; //Asigno valor a las variables
+  b = 10;
+
+  printf("suma\n");
+  c = a + b; //Suma o adicion
+  printf ("\t5 + 10 = %f\n",c);
+
+  return 0;
+}
+  
+/*#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 
@@ -46,4 +63,5 @@ int main()
 	printf("\tEl resultado de %f/(%f(%f+%f))es %f\n",a,b,b,b,c);
 		printf("\tEl resultado de %f/%f(%f+%f)es %f\n",a,b,b,b,d);
 return 0;
-}
+}*/
+
