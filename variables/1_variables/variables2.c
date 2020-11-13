@@ -1,16 +1,49 @@
 #include<stdio.h>
-#include<math.h>
+#include <math.h>
 
-float a,b,c;//Declaro variables
-int d, e;
+float a, b, c;//Declaro variables
+int a1, b1, c1;
 int main()
 {
-  a = 5; //Asigno valor a las variables
-  b = 10;
+	printf("Dame el \'primer\' numero:");
+  	scanf("%f",&a);  
 
-  printf("suma\n");
-  c = a + b; //Suma o adicion
-  printf ("\t5 + 10 = %f\n",c);
+  printf("Dame el \'segundo\' numero:");
+	  scanf("%f",&b);
+  
+  printf("Suma\n");
+    c = a + b; //Suma o adicion
+    printf ("\t%0.2f + %0.2f = %0.2f\n",a, b, c);
+
+  printf("Resta\n");
+   c = a - b; //Resta
+    printf ("\t%0.2f - %0.2f = %0.2f\n",a, b, c);
+
+  printf("Multiplicacion\n");
+    c = a * b; //Multiplicacion
+    printf ("\t%0.2f * %0.2f = %0.2f\n",a, b, c);
+
+  printf("Division\n");
+   c = a / b; //Division
+    printf ("\t%0.2f / %0.2f = %0.2f\n",a, b, c);
+
+  printf("Modulo\n");
+    a1= a;
+    b1= b;
+    c1 = a1 % b1; //Modulo
+    printf ("\tEl modulo de  %d / %d = %d\n",a1, b1, c1);
+  
+  printf("Raiz cuadrada\n"); 
+    printf("La raiz cuadrada de %0.2f es:%0.2f\n", a, c);
+   c= sqrt(a); //Raiz cuadrada a
+   printf("La raiz cuadrada de %0.2f es:%0.2f\n", b, c);
+   c = sqrt(b); //Raiz cuadrada b
+
+  printf("Potencia\n");
+		c = pow(a, b); //Potencia a
+	  printf("\tEl numero %0.2f elevado a la potencia %0.2f es %0.2f\n",a,b,c);
+    c = pow(b, a); //Potencia b
+	  printf("\tEl numero %0.2f elevado a la potencia %0.2f es %0.2f\n",b,a,c);
 
   return 0;
 }
@@ -24,11 +57,10 @@ int a1, b1;
 int main()
 {
 	system("clear");
-	printf("Dame el primer numero\n");
-	scanf("%f",&a);
+
+
 	a1 = a;
-	printf("Dame el segundo numero\n");
-	scanf("%f",&b);
+	
 	b1 = b;
 
 	printf("Suma\n");
