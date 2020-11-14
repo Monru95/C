@@ -45,6 +45,8 @@ int main()
     c = pow(b, a); //Potencia b
 	  printf("\tEl numero %0.2f elevado a la potencia %0.2f es %0.2f\n",b,a,c);
 
+    c= a/b*a+b;
+    printf("\t%0.2f / %0.f * %0.2f + %0.2f = %0.2f\n", a, b, a, b, c);
   return 0;
 }
   
