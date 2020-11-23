@@ -1,7 +1,7 @@
 # [C Classroom](https://classroom.github.com/classrooms/49954342-taller-programacion-classroom)
 
 ### [1. Introduction]
-### [9. C data types](https://github.com/taller-programacion/C/tree/master/variables)
+### [2. C data types](https://github.com/taller-programacion/C/tree/master/variables)
 ### [3. Control structures](https://github.com/taller-programacion/C/tree/master/control)
 ### [4. C functions](https://github.com/taller-programacion/C/tree/master/function)
 ### [5. The C struct and header files](https://github.com/taller-programacion/C/tree/master/struct)
